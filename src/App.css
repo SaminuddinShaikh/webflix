@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #020533;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.logo{
+    color: rgb(245, 0, 0);
+    font-weight: bold;
+font-size: 70px;
+}
+
+.poster-section{
+    padding: 20px 0px;
+width: 100vw;
+}
+
+.heading{
+    margin: 20px 20px;
+    color: aqua;
+}
+.movie-list{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+.movie-list::-webkit-scrollbar{
+    display: none;
+}
